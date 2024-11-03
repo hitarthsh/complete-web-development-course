@@ -6,6 +6,8 @@ body {
     color: #fff;
 }
 
+/* nav1 start */
+
 .nav-container {
     margin-bottom: 40px;
 }
@@ -38,7 +40,7 @@ h2 {
     position: relative;
 }
 
-.nav1 a::after{
+.nav1 a::after {
     content: "";
     position: absolute;
     height: 3px;
@@ -50,9 +52,10 @@ h2 {
     transition: transform 0.3s ease-in-out;
 }
 
-.nav1 a:hover::after{
+.nav1 a:hover::after {
     transform: scaleX(1);
 }
+
 .nav1 .login-btn {
     background-color: #254bf6;
     color: #fff;
@@ -61,3 +64,5 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* nav1 end */
