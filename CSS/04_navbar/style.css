@@ -66,3 +66,43 @@ h2 {
 }
 
 /* nav1 end */
+
+/* nav2 start */
+.nav2 {
+    background-color: #03643c;
+    width: 200px;
+    padding: 20px;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav2 li {
+    margin-bottom: 12px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav2 a:hover {
+    background-color: #137e0a;
+}
+
+.nav2 .login-btn {
+    background-color: #048a2f;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* nav2 end */
