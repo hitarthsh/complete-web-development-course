@@ -78,6 +78,8 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav2 li {
@@ -105,4 +107,65 @@ h2 {
     cursor: pointer;
 }
 
+.nav2 .login-btn:hover {
+    background-color: #137e0a;
+    border: 2px solid white;
+}
+
 /* nav2 end */
+
+/* nav2 start */
+
+.nav3 {
+    background-color: #45a2bb;
+    padding: 10px;
+}
+
+.nav3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.nav3 a:hover {
+    font-size: 25px;
+    position: relative;
+}
+
+.nav3 .dropdown-content {
+    display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #3e3e3e;
+    min-width: 150px;
+}
+
+.nav3 .login-btn {
+    background-color: #4b4b4b;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.nav3 .login-btn:hover {
+    border: 2px solid white;
+    background-color: #212121;
+    font-size: 25px;
+    position: relative;
+}
+
+/* nav3 end */
