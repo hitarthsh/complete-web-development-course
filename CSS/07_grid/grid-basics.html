@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid introduction</title>
     <style>
+      body {
+        background-color: #000000cc;
+        margin: 0;
+        padding: 0;
+      }
       .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 100px 100px;
-        gap: 4px;
+        gap: 5px;
       }
 
       .item {
-        background-color: orange;
-        border: 1px solid black;
+        background-color: rgb(0, 180, 252);
+        /* border: 1px solid black; */
         display: flex;
       }
 
@@ -42,7 +47,7 @@
       .item-img {
         justify-content: center;
         align-items: center;
-        border: 5px solid rgb(5, 66, 209);
+        border: 5px solid orange;
       }
     </style>
   </head>
