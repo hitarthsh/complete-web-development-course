@@ -7,20 +7,71 @@
     <style>
       .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 100px 100px;
       }
+
       .item {
         background-color: orange;
         border: 1px solid black;
+        display: flex;
+      }
+
+      .item1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        display: flex;
+      }
+
+      .item2 {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        display: flex;
+      }
+
+      .item6 {
+        grid-column: 2/4;
+        display: flex;
+      }
+
+      img {
+        width: auto;
+        height: 100px;
+      }
+      .item-img {
+        justify-content: center;
+        align-items: center;
+        border: 5px solid rgb(5, 66, 209);
       }
     </style>
   </head>
+
   <body>
     <div class="grid-container">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
+      <div class="item-img item item1">
+        1
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
+      <div class="item-img item item2">
+        2
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
+      <div class="item-img item">
+        3
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
+      <div class="item-img item">
+        4
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
+      <div class="item-img item">
+        5
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
+      <div class="item-img item item6">
+        6
+        <img src="../Images/chai_logo.png" alt="" />
+      </div>
     </div>
   </body>
 </html>
