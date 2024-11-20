@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Design</title>
     <style>
-        body{
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1a1a1a;
+      }
+      .responsive-div {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        color: #fff;
+        font-size: 26px;
+        background-color: #7e0a93;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          align-items: flex-start;
         }
+        .responsive-div {
+          background-color: #3498db;
+        }
+      }
+      
+      @media (max-width: 601px) {
+        body {
+          align-items: center;
+        }
+        .responsive-div {
+          background-color: #e74c3c;
+        }
+      }
     </style>
   </head>
   <body>
