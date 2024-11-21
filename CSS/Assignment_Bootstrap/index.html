@@ -25,20 +25,29 @@
         border-radius: 15px;
         margin: 20px 0;
       }
+
+      @media (max-width: 320px) {
+        .card {
+          /* background-color: brown; */
+          padding: 5px;
+          margin: 8px;
+          font-size: 15px;
+        }
+      }
       .fa-solid {
         font-size: 72px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 30px;
+        margin: 20px;
         background-color: cornflowerblue;
-        padding: 50px;
+        padding: 30px;
         border-radius: 15px;
       }
       .copy-by {
         background-color: #1a1a1a;
         display: flex;
-        height: 30px;
+        height: 20px;
         justify-content: center;
         align-items: center;
         color: white;
@@ -95,9 +104,9 @@
         </button>
       </div>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center align-items-center h-100">
         <!-- Responsive Columns -->
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <div class="card">
             <i class="fa-solid fa-code"></i>
             <div class="card-body">
@@ -111,7 +120,7 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <div class="card">
             <i class="fa-solid fa-snowflake"></i>
             <div class="card-body">
@@ -125,7 +134,7 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <div class="card">
             <i class="fa-solid fa-flask"></i>
             <div class="card-body">
