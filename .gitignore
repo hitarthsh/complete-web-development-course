@@ -1,0 +1,5 @@
+
+*.cmd
+Tailwind/node_modules/.bin/nanoid
+*.ps1
+/Tailwind/node_modules
