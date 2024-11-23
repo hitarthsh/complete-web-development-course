@@ -1,0 +1,12 @@
+{
+  "name": "complete-web-development-course",
+  "version": "1.0.0",
+  "description": "A structured journey to mastering web development, designed for beginners and intermediate learners. This guide covers essential topics, hands-on skills, and project-building tips.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
