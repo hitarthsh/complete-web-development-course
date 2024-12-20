@@ -7,6 +7,8 @@ let teaFlavors = ["green tea", "black tea", "oolong tea"];
 
 const firstTea = teaFlavors[0];
 
+// console.log(firstTea);
+
 /* 
 2. Declare an array named `cities` containing `"London"`, `"Tokyo"`, `"Paris"`, and `"New York"`. 
    Access the third element in the array and store it in a variable named `favoriteCity`.
@@ -15,11 +17,17 @@ const firstTea = teaFlavors[0];
 let cities = ["London", "Tokyo", "Paris", "New York"];
 const favoriteCity = cities[2];
 
+// console.log(favoriteCity);
+
 /* 
 3. You have an array named `teaTypes` containing `"herbal tea"`, `"white tea"`, and `"masala chai"`. 
    Change the second element of the array to `"jasmine tea"`.
 */
 let teaTypes = ["herbel tea", "white tea", "masala chai"];
+
+const jasminetea = teaTypes[2];
+
+// console.log(jasminetea);
 
 /* 
 4. Declare an array named `citiesVisited` containing `"Mumbai"` and `"Sydney"`. 
@@ -27,7 +35,7 @@ let teaTypes = ["herbel tea", "white tea", "masala chai"];
 */
 
 let citiesVisited = ["Mumbai", "Sydney"];
-citiesVisited.push("Berlin");
+citiesVisited.push("Berlin"); // add last element
 // console.log(citiesVisited);
 
 /* 
@@ -36,7 +44,10 @@ citiesVisited.push("Berlin");
 */
 
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
-const lastOrder = teaOrders.pop();
+const lastOrder = teaOrders.pop(); // Remove last element
+
+// console.log(teaOrders);
+// console.log(lastOrder);
 
 /* 
 6. You have an array named `popularTeas` containing `"green tea"`, `"oolong tea"`, and `"chai"`. 
@@ -69,7 +80,7 @@ let europeanCities = ["Paris", "Rome"];
 let asianCities = ["Tokyo", "Bangkok"];
 let worldCities = europeanCities.concat(asianCities);
 
-console.log(worldCities);
+// console.log(worldCities);
 
 /* 
 9. You have an array named `teaMenu` containing `"masala chai"`, `"oolong tea"`, `"green tea"`, and `"earl grey"`. 
