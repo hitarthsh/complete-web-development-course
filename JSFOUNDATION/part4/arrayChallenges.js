@@ -4,10 +4,9 @@
 */
 
 let teaFlavors = ["green tea", "black tea", "oolong tea"];
-
 const firstTea = teaFlavors[0];
-
-// console.log(firstTea);
+console.log(firstTea);
+console.log("----(1)----");
 
 /* 
 2. Declare an array named `cities` containing `"London"`, `"Tokyo"`, `"Paris"`, and `"New York"`. 
@@ -17,18 +16,17 @@ const firstTea = teaFlavors[0];
 let cities = ["London", "Tokyo", "Paris", "New York"];
 const favoriteCity = cities[2];
 
-// console.log(favoriteCity);
+console.log(favoriteCity);
+console.log("----(2)----");
 
 /* 
 3. You have an array named `teaTypes` containing `"herbal tea"`, `"white tea"`, and `"masala chai"`. 
    Change the second element of the array to `"jasmine tea"`.
 */
 let teaTypes = ["herbel tea", "white tea", "masala chai"];
-
 const jasminetea = teaTypes[2];
-
-// console.log(jasminetea);
-
+console.log(jasminetea);
+console.log("----(3)----");
 /* 
 4. Declare an array named `citiesVisited` containing `"Mumbai"` and `"Sydney"`. 
    Add `"Berlin"` to the array using the `push` method.
@@ -36,8 +34,8 @@ const jasminetea = teaTypes[2];
 
 let citiesVisited = ["Mumbai", "Sydney"];
 citiesVisited.push("Berlin"); // add last element
-// console.log(citiesVisited);
-
+console.log(citiesVisited);
+console.log("----(4)----");
 /* 
 5. You have an array named `teaOrders` with `"chai"`, `"iced tea"`, `"matcha"`, and `"earl grey"`. 
    Remove the last element of the array using the `pop` method and store it in a variable named `lastOrder`.
@@ -46,8 +44,9 @@ citiesVisited.push("Berlin"); // add last element
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
 const lastOrder = teaOrders.pop(); // Remove last element
 
-// console.log(teaOrders);
-// console.log(lastOrder);
+console.log(teaOrders);
+console.log(lastOrder);
+console.log("----(5)----");
 
 /* 
 6. You have an array named `popularTeas` containing `"green tea"`, `"oolong tea"`, and `"chai"`. 
@@ -57,20 +56,20 @@ const lastOrder = teaOrders.pop(); // Remove last element
 let popularTeas = ["green tea", "oolong tea", "chai"];
 let softCopyTeas = popularTeas;
 popularTeas.pop();
-// console.log(softCopyTeas);
-// console.log(popularTeas);
-
+console.log(softCopyTeas);
+console.log(popularTeas);
+console.log("----(6)----");
 /* 
 7. You have an array named `topCities` containing `"Berlin"`, `"Singapore"`, and `"New York"`. 
    Create a hard copy of this array named `hardCopyCities`.
 */
 
 let topCities = ["Berlin", "Singapore", "New York"];
-let hardCopyCities = [...topCities];
-// let hardCopyCities = topCities.slice();
+// let hardCopyCities = [...topCities];
+let hardCopyCities = topCities.slice();
 topCities.pop();
-// console.log(hardCopyCities);
-
+console.log(hardCopyCities);
+console.log("----(7)----");
 /* 
 8. You have two arrays: `europeanCities` containing `"Paris"` and `"Rome"`, and `asianCities` containing `"Tokyo"` and `"Bangkok"`. 
    Merge these two arrays into a new array named `worldCities`.
@@ -78,18 +77,20 @@ topCities.pop();
 
 let europeanCities = ["Paris", "Rome"];
 let asianCities = ["Tokyo", "Bangkok"];
+// let demoCities = ["Hitarth", "Tom"];
 let worldCities = europeanCities.concat(asianCities);
-
-// console.log(worldCities);
-
+//.concat(demoCities);
+console.log(worldCities);
+console.log("----(8)----");
 /* 
 9. You have an array named `teaMenu` containing `"masala chai"`, `"oolong tea"`, `"green tea"`, and `"earl grey"`. 
    Find the length of the array and store it in a variable named `menuLength`.
 */
 
 let teaMenu = ["Masala chai", "oolong tea", "green tea", "earl grey"];
-
 let menuLength = teaMenu.length;
+console.log(menuLength);
+console.log("----(9)----");
 
 /* 
 10. You have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`. 
@@ -99,3 +100,5 @@ let menuLength = teaMenu.length;
 let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
 
 let isLondonInList = cityBucketList.includes("London");
+console.log(isLondonInList, cityBucketList);
+console.log("----(10)----");
