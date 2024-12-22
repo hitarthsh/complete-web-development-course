@@ -1,5 +1,5 @@
-p{
-    color: cornflowerblue ;
-    font-size: 30px;
-    font-weight: 600;
+p {
+    color: cornflowerblue; /* Text color */
+    font-size: 30px; /* Font size */
+    font-weight: 600; /* Font weight */
 }
