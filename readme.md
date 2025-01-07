@@ -1,4 +1,4 @@
-# 🌐 Web Development Guide: From Basics to Advanced 🌐
+# 🌐 Web Development Guide: From Basics to Advanced
 
 A structured journey to mastering web development, designed for beginners and intermediate learners. This guide covers essential topics, hands-on skills, and project-building tips.
 
